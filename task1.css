@@ -229,6 +229,10 @@
   .foot{
     display: none;
   }
+  .BG {
+    height: 1200px;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 818px) {
@@ -240,6 +244,7 @@
     margin-top: 20px;
     border-radius: 5px;
   }
+  
   .btns {
     height: auto;
     width: 25% !important;
@@ -291,5 +296,9 @@
   .textBox{
     margin-left: 25px;
     font-size: 44px;
+  }
+  .BG {
+    height: 1100px;
+    align-items: center;
   }
 }
