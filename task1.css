@@ -1,7 +1,7 @@
 .BackgroundHero {
   position: absolute;
   width: 100%;
-  height: 806px;
+  height: 906px;
   left: 0px;
   top: 0px;
 }
@@ -11,7 +11,7 @@
   height: 150px;
   width: auto;
   background-color: #ffffff;
-  margin-top: 806px;
+  margin-top: 956px;
 }
 
 .BG {
@@ -208,4 +208,88 @@
 .P2 span {
   color: #44b4ffdb;
   font-size: 17px;
+}
+
+@media screen and (max-width: 1180px) {
+  .BG {
+    height: 1100px;
+    align-items: center;
+  }
+  #formDiv {
+    float: left;
+    margin-left: 330px;
+  }
+  .formDiv {
+    float: left;
+  }
+  .textBox {
+    float: left;
+    margin-left: 120px;
+  }
+  .foot{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 818px) {
+  .logo {
+    height: 50px;
+    width: 16%;
+    /* border: wheat solid 2px; */
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .btns {
+    height: auto;
+    width: 25% !important;
+    /* border: wheat solid 2px; */
+    float: right;
+    margin-top: 25px;
+  }
+  .textBox{
+    margin-left: 130px;
+  }
+  #formDiv {
+    float: left;
+    margin-left: 130px;
+  }
+}
+
+@media screen and (max-width: 650PX) {
+  .btns {
+    height: auto;
+    width: 34% !important;
+    /* border: wheat solid 2px; */
+    float: right;
+    margin-right: 40px;
+  }
+
+  .logo {
+    height: 40px;
+    width: 20%;
+    /* border: wheat solid 2px; */
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 5px;
+  }
+
+  #formDiv {
+    float: left;
+    width: 410px;
+    height: 540px;
+    margin-left: 30px;
+  }
+  .uPassword {
+    width: 330px;
+    height: 50px;
+  }
+  .btn{
+    width: 320px;
+    height: 50px;
+  }
+  .textBox{
+    margin-left: 25px;
+    font-size: 44px;
+  }
 }
