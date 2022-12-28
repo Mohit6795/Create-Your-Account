@@ -245,7 +245,8 @@
   background: linear-gradient(277.47deg, rgba(0, 151, 254, 0) 8.72%, rgba(0, 151, 254, 0.86) 91.5%);
   transform: skewy(172.4deg);
 }
-.rectangle4{
+
+.rectangle4 {
   position: absolute;
   left: 62.59%;
   right: 0.14%;
@@ -256,15 +257,16 @@
   transform: matrix(1, 0, 0, -1, 0, 0);
   z-index: -2;
 }
-.rectangle5{
+
+.rectangle5 {
   position: absolute;
-left: -4.52%;
-right: 51.06%;
-top: -10.55%;
-bottom: 51.24%;
-z-index:-2 ;
-background: linear-gradient(101.06deg, rgba(5, 137, 240, 0.7) 7.54%, rgba(5, 137, 240, 0.7) 72.97%);
-filter: blur(123px);
+  left: -4.52%;
+  right: 51.06%;
+  top: -10.55%;
+  bottom: 51.24%;
+  z-index: -2;
+  background: linear-gradient(101.06deg, rgba(5, 137, 240, 0.7) 7.54%, rgba(5, 137, 240, 0.7) 72.97%);
+  filter: blur(123px);
 }
 
 @media screen and (max-width: 1180px) {
@@ -374,6 +376,7 @@ filter: blur(123px);
     height: 1100px;
     align-items: center;
   }
+
   .rectangle3 {
     right: 71.82%;
     bottom: 12.2%;
