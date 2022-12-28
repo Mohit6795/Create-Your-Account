@@ -22,6 +22,7 @@
   bottom: 0%;
   /* border: wheat solid 2px; */
   background: linear-gradient(83.62deg, #1B45B4 3.5%, #1C2792 96.85%);
+  z-index: -1;
 }
 
 .BG::before {
@@ -115,6 +116,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  z-index: 1;
 }
 
 .pp {
@@ -210,25 +212,85 @@
   font-size: 17px;
 }
 
+.rectangle1 {
+  box-sizing: border-box;
+  position: absolute;
+  left: -18.24%;
+  right: 89.22%;
+  top: 9.18%;
+  bottom: 81.62%;
+  z-index: -2;
+  transform: skewy(172.4deg);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.rectangle2 {
+  position: absolute;
+  left: 82.62%;
+  right: 0%;
+  top: 10.68%;
+  bottom: 80.3%;
+  transform: skewy(172.4deg);
+  background: linear-gradient(270.47deg, rgba(0, 310, 346, 0) -45.28%, rgba(0, 157, 287, 195.86) 101.5%);
+  z-index: -2;
+}
+
+.rectangle3 {
+  position: absolute;
+  left: 0;
+  right: 71.82%;
+  top: 82.19%;
+  z-index: 0;
+  bottom: 7.2%;
+  background: linear-gradient(277.47deg, rgba(0, 151, 254, 0) 8.72%, rgba(0, 151, 254, 0.86) 91.5%);
+  transform: skewy(172.4deg);
+}
+.rectangle4{
+  position: absolute;
+  left: 62.59%;
+  right: 0.14%;
+  top: 0.65%;
+  bottom: 47.89%;
+  background: linear-gradient(109.87deg, rgba(5, 137, 240, 0.6) -15.54%, rgba(177, 78, 223, 0.6) 83.66%);
+  filter: blur(67.5px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: -2;
+}
+.rectangle5{
+  position: absolute;
+left: -4.52%;
+right: 51.06%;
+top: -10.55%;
+bottom: 51.24%;
+z-index:-2 ;
+background: linear-gradient(101.06deg, rgba(5, 137, 240, 0.7) 7.54%, rgba(5, 137, 240, 0.7) 72.97%);
+filter: blur(123px);
+}
+
 @media screen and (max-width: 1180px) {
   .BG {
     height: 1100px;
     align-items: center;
   }
+
   #formDiv {
     float: left;
     margin-left: 330px;
   }
+
   .formDiv {
     float: left;
   }
+
   .textBox {
     float: left;
     margin-left: 120px;
   }
-  .foot{
+
+  .foot {
     display: none;
   }
+
   .BG {
     height: 1200px;
     align-items: center;
@@ -244,7 +306,7 @@
     margin-top: 20px;
     border-radius: 5px;
   }
-  
+
   .btns {
     height: auto;
     width: 25% !important;
@@ -252,12 +314,19 @@
     float: right;
     margin-top: 25px;
   }
-  .textBox{
+
+  .textBox {
     margin-left: 130px;
   }
+
   #formDiv {
     float: left;
     margin-left: 130px;
+  }
+
+  .rectangle3 {
+    right: 71.82%;
+    bottom: 9.2%;
   }
 }
 
@@ -285,20 +354,41 @@
     height: 540px;
     margin-left: 30px;
   }
+
   .uPassword {
     width: 330px;
     height: 50px;
   }
-  .btn{
+
+  .btn {
     width: 320px;
     height: 50px;
   }
-  .textBox{
+
+  .textBox {
     margin-left: 25px;
     font-size: 44px;
   }
+
   .BG {
     height: 1100px;
     align-items: center;
+  }
+  .rectangle3 {
+    right: 71.82%;
+    bottom: 12.2%;
+    right: 50%;
+  }
+}
+
+@media screen and (max-width: 818px) {
+  .pp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    width: 462px;
+
   }
 }
